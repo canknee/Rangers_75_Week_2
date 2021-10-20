@@ -32,7 +32,9 @@ def cart():
             state = False
             clear_output()
             break
+    print("Here is what you have in your cart:")
     for k,v in emptycart.items():
-        print(f"You have {v} {k}(s)")
+        print(f"{v} {k}(s)")
 
 cart()
+ 
